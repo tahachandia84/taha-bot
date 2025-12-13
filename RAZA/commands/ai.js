@@ -1,5 +1,3 @@
-
-TAHA KHAN 😒 😘 🩷 🪽
 const axios = require("axios");
 
 module.exports.config = {
