@@ -1,5 +1,4 @@
 const axios = require("axios");
-
 module.exports.config = {
   name: "taha",
   version: "2.0.2",
@@ -71,7 +70,7 @@ Now continue the chat based on recent conversation:\n\n${fullChat}
     const res = await axios.get(url);
     const botReply = (typeof res.data === "string" ? res.data : JSON.stringify(res.data)).trim();
 
-    chatHistory[senderID].push(taha: ${botReply});
+    chatHistory[senderID].push(affu: ${botReply});
     return api.sendMessage(botReply, threadID, messageID);
   } catch (err) {
     console.error("Pollinations error:", err.message);
